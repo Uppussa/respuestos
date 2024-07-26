@@ -1,6 +1,8 @@
 import TopBar from "../components/TopBar";
 import Header from "../components/Header";
 import imagen1 from "../assets/dragon_1.jpg";
+import Parts from "../components/Parts";
+import Footer from "../components/Footer";
 
 
 function HomePage() {
@@ -43,7 +45,8 @@ function HomePage() {
         </div>
        
       </main>
-      
+      <Parts />
+      <Footer />  
     </div>
   );
 }
