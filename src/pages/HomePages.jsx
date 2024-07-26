@@ -41,11 +41,9 @@ function HomePage() {
           </div> */}
 
         </div>
-        <h1>hola</h1>
+       
       </main>
-      <h1>hola como estyas
-        
-      </h1>
+      
     </div>
   );
 }
