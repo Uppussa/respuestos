@@ -3,6 +3,9 @@ import Header from "../components/Header";
 import imagen1 from "../assets/dragon_1.jpg";
 import Parts from "../components/Parts";
 import Footer from "../components/Footer";
+import Offers from "../components/Offers";
+import Brands from "../components/Brands";
+import Trending from "../components/Trending";
 
 
 function HomePage() {
@@ -46,6 +49,10 @@ function HomePage() {
        
       </main>
       <Parts />
+      <Offers/>
+      <Brands/>
+      <Trending/>
+      
       <Footer />  
     </div>
   );
