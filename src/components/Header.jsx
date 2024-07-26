@@ -9,10 +9,7 @@ function Header() {
           <Tools />
         </div>
         <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
-            <img src="https://placehold.co/20x20" alt="Phone Icon" />
-            <span>Helpline: 0(+084)012-345</span>
-          </div>
+          
           <input
             type="text"
             placeholder="Enter a keyword or product"

@@ -1,6 +1,8 @@
 import TopBar from "../components/TopBar";
 import Header from "../components/Header";
 import imagen1 from "../assets/dragon_1.jpg";
+import Parts from "../components/Parts";
+import Footer from "../components/Footer";
 
 
 function HomePage() {
@@ -41,11 +43,10 @@ function HomePage() {
           </div> */}
 
         </div>
-        <h1>hola</h1>
+       
       </main>
-      <h1>hola como estyas
-        
-      </h1>
+      <Parts />
+      <Footer />  
     </div>
   );
 }
