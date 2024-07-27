@@ -10,7 +10,7 @@ import Trending from "../components/Trending";
 
 function HomePage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="bg-[#EBEBEB] flex flex-col min-h-screen">
       <TopBar />
       <Header />
       
