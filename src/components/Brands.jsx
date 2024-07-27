@@ -45,18 +45,51 @@ function Brands() {
             </div>
             </div>
             <h3 className="text-xl font-bold mb-4">FEATURED BRANDS</h3>
-            <div className="flex items-center justify-between overflow-x-auto mb-8">
-            <img className="h-auto" src={brands1} alt="AFE Power" />
-            <img className="h-auto" src={brands2} alt="ARK Performance" />
-            <img className="h-auto" src={brands3} alt="Bosch" />
-            <img className="h-auto" src={brands4} alt="Budget" />
-            <img className="h-auto" src={brands5} alt="Carquest" />
-            <img className="h-auto" src={brands6} alt="Dynamic" />
-            <img className="h-auto" src={brands7} alt="Koni" />
-            <img className="h-auto" src={brands8} alt="NRS Brakes" />
-            
-            
-            </div>
+            <div className="relative overflow-hidden">
+      <div className="flex items-center space-x-4 animate-slide pause-on-hover">
+        <img
+          className="carousel-image"
+          src={brands1}
+          alt="AFE Power"
+        />
+        <img
+          className="carousel-image"
+          src={brands2}
+          alt="ARK Performance"
+        />
+        <img
+          className="carousel-image"
+          src={brands3}
+          alt="Bosch"
+        />
+        <img
+          className="carousel-image"
+          src={brands4}
+          alt="Budget"
+        />
+        <img
+          className="carousel-image"
+          src={brands5}
+          alt="Carquest"
+        />
+        <img
+          className="carousel-image"
+          src={brands6}
+          alt="Dynamic"
+        />
+        <img
+          className="carousel-image"
+          src={brands7}
+          alt="Koni"
+        />
+        <img
+          className="carousel-image"
+          src={brands8}
+          alt="NRS Brakes"
+        />
+      </div>
+    </div>
+    
             <div className="flex items-center justify-between mb-4">
                 <button id="scrollLeft" className="bg-gray-200 text-secondary-foreground hover:bg-secondary/80 p-2 rounded">←</button>
                 <button id="scrollRight" className="bg-gray-200  text-secondary-foreground hover:bg-secondary/80 p-2 rounded">→</button>
