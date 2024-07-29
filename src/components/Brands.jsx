@@ -9,14 +9,14 @@ import brands8 from '../assets/brands/brands8.png'
 import desc1 from '../assets/desc/desc1.png'
 import desc2 from '../assets/desc/desc2.png'
 import desc3 from '../assets/desc/desc3.png'
-
+import 'aos/dist/aos.css';
 
 
 function Brands() {
     return (
-        <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            <div className="bg-slate-600 text-primary-foreground p-4 rounded-lg">
+        <div className="container mx-auto px-4" >
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8" >
+            <div className="bg-slate-600 text-primary-foreground p-4 rounded-lg" data-aos="flip-right">
                 <h2 className="text-xl font-bold text-white">FRENOS</h2>
                 <p className="text-lg text-amber-200">DESCUENTO DEL 50%</p>
                 <a href="#" className="bg-white text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2 inline-block">SHOP NOW!</a>
@@ -25,7 +25,7 @@ function Brands() {
                 alt="LED Headlight"
                 src={desc1} />
             </div>
-            <div className="bg-purple-500 text-white p-4 rounded-lg">
+            <div className="bg-purple-500 text-white p-4 rounded-lg" data-aos="flip-right">
                 <h2 className="text-xl font-bold"> TODOS LOS KITS</h2>
                 <p className="text-lg text-amber-200">DESCUENTO DEL 50%</p>
                 <a href="#" className="bg-white text-secondary-foreground text-black hover:bg-secondary/80 p-2 rounded mt-2 inline-block">SHOP NOW!</a>
@@ -34,7 +34,7 @@ function Brands() {
                 alt="Performance Brake Kits"
                 src={desc2}/>
             </div>
-            <div className="bg-orange-500 text-white p-4 rounded-lg">
+            <div className="bg-orange-500 text-white p-4 rounded-lg" data-aos="flip-right">
                 <h2 className="text-xl font-bold">AMORTIGUACIONES</h2>
                 <p className="text-lg text-amber-200">DESCUENTO DEL 30% </p>
                 <a href="#" className="bg-white text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2 inline-block text-black">SHOP NOW!</a>
