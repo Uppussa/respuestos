@@ -28,8 +28,8 @@ const Parts = () => {
       </div>
       
       {/* Top Categories Section */}
-      <h3 className="text-xl font-semibold mb-4" data-aos="fade-up">TOP CATEGORIES</h3>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4" data-aos="fade-up">
+      <h3 className="text-xl font-semibold mb-4" data-aos="fade-right">TOP CATEGORIES</h3>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 " data-aos="fade-up">
         {[
           { title: 'Seat Covers', img: 'https://placehold.co/150x100' },
           { title: 'Floor Mats', img: 'https://placehold.co/150x100' },
@@ -41,7 +41,7 @@ const Parts = () => {
           { title: 'Tires', img: 'https://placehold.co/150x100' },
         
         ].map((category, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow">
+          <div key={index} className="bg-white p-4 rounded-lg opacity-45 drop-shadow-xl">
             <img src={category.img} alt={category.title} className="w-full h-32 object-cover rounded" />
             <h4 className="text-center mt-2 font-medium">{category.title}</h4>
           </div>
